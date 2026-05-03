@@ -1,0 +1,13 @@
+Package: hitPredictorR
+Type: Package
+Title: Predict Song Hit Potential Using Audio Features
+Version: 0.1.0
+Author: Kyana Hay
+Maintainer: Kyana Hay <kmhay@usf.edu>
+Description: An R package that predicts the likelihood of a song becoming a hit using a multi-factor scoring system based on Spotify audio features such as energy, danceability, valence, popularity, loudness, tempo, speechiness, instrumentalness, and explicit content.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2
+Config/roxygen2/version: 8.0.0
