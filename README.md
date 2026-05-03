@@ -1,22 +1,30 @@
 # hitPredictorR
 
-hitPredictorR is a simple R package that estimates the hit potential of songs using Spotify audio features.
+hitPredictorR is an R package that estimates the hit potential of songs using a multi-factor scoring system based on Spotify audio features.
 
-The package uses an interpretable scoring system based on energy, danceability, valence, and popularity. Instead of using a black-box machine learning model, the package creates a clear score that can be explained and adjusted.
+Instead of relying on black-box machine learning models, the package uses an interpretable scoring approach that allows users to understand how different musical characteristics contribute to a song’s potential success.
 
 ## Purpose
 
-hitPredictorR is an R package that estimates the hit potential of songs using a multi-factor scoring system based on Spotify audio features.
+The goal of this package is to demonstrate how audio and metadata features can be combined into a structured, explainable model for predicting song popularity.
 
-The model incorporates engagement (energy, danceability), mood (valence), popularity, audio structure (loudness, tempo), and content characteristics (speechiness, instrumentalness, explicit content) to produce an interpretable score from 0 to 100.
+The model incorporates multiple dimensions of a song:
+
+- **Engagement:** energy, danceability  
+- **Mood:** valence  
+- **Popularity signal:** popularity  
+- **Audio structure:** loudness, tempo  
+- **Content characteristics:** speechiness, instrumentalness, explicit content  
+
+These factors are combined into a single score ranging from 0 to 100.
 
 ## Main Functions
 
-- `predict_hit_score()` calculates a hit score using multiple audio features.
-- `classify_song_hit()` categorizes songs into Low, Moderate, or High Potential.
-- `feature_impact_analysis()` shows the contribution of each feature to the score.
-- `plot_hit_factors()` visualizes feature importance.
-- `top_hit_candidates()` returns the highest scoring songs.
+- `predict_hit_score()` calculates a hit score using multiple audio features  
+- `classify_song_hit()` categorizes songs into Low, Moderate, or High Potential  
+- `feature_impact_analysis()` shows the contribution of each feature to the score  
+- `plot_hit_factors()` visualizes feature importance  
+- `top_hit_candidates()` returns the highest scoring songs  
 
 ## Example
 
@@ -35,14 +43,14 @@ test_data <- data.frame(
 
 predict_hit_score(test_data)
 
-
 Dataset
 
-This project uses a Spotify tracks dataset containing audio features such as energy, danceability, valence, and popularity.
+This project uses a Spotify tracks dataset containing audio features such as energy, danceability, valence, popularity, loudness, tempo, speechiness, and instrumentalness.
 
 AI Disclosure
 
-AI tools were used to assist with brainstorming the package concept, improving code structure, and refining documentation. The final package structure, function testing, dataset selection, and project decisions were reviewed and implemented by the author.
+AI tools were used to assist with brainstorming the package concept, structuring functions, and refining documentation. The final implementation, testing, dataset alignment, and modeling decisions were completed and verified by the author.
 
 Author
+
 Kyana Hay
