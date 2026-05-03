@@ -55,7 +55,7 @@ This package does not implement S3 or S4 classes, as its primary focus is on fun
 
 ## AI Disclosure
 
-AI tools were used to assist with brainstorming the package concept, structuring functions, and refining documentation. The final implementation, testing, dataset alignment, and modeling decisions were completed and verified by the author.
+AI tools were used to assist with brainstorming the project concept, structuring functions, and refining documentation. All modeling decisions, implementation, debugging, and validation of the package were independently completed by me, the author. The final code, dataset alignment, and package testing reflect my understanding of R package development.
 
 ## Author
 
