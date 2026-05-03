@@ -43,14 +43,14 @@ test_data <- data.frame(
 
 predict_hit_score(test_data)
 
-Dataset
+## Dataset 
 
 This project uses a Spotify tracks dataset containing audio features such as energy, danceability, valence, popularity, loudness, tempo, speechiness, and instrumentalness.
 
-AI Disclosure
+## AI Disclosure
 
 AI tools were used to assist with brainstorming the package concept, structuring functions, and refining documentation. The final implementation, testing, dataset alignment, and modeling decisions were completed and verified by the author.
 
-Author
+## Author
 
 Kyana Hay
