@@ -49,6 +49,10 @@ predict_hit_score(test_data)
 
 This project uses a Spotify tracks dataset containing audio features such as energy, danceability, valence, popularity, loudness, tempo, speechiness, and instrumentalness.
 
+## Object System
+
+This package does not implement S3 or S4 classes, as its primary focus is on functional data processing and scoring. All functions operate directly on standard data frames to keep the package simple and accessible.
+
 ## AI Disclosure
 
 AI tools were used to assist with brainstorming the package concept, structuring functions, and refining documentation. The final implementation, testing, dataset alignment, and modeling decisions were completed and verified by the author.
