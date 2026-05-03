@@ -24,7 +24,8 @@ These factors are combined into a single score ranging from 0 to 100.
 - `classify_song_hit()` categorizes songs into Low, Moderate, or High Potential  
 - `feature_impact_analysis()` shows the contribution of each feature to the score  
 - `plot_hit_factors()` visualizes feature importance  
-- `top_hit_candidates()` returns the highest scoring songs  
+- `top_hit_candidates()` returns the highest scoring songs
+
 
 ## Example
 
@@ -42,7 +43,7 @@ test_data <- data.frame(
 )
 
 predict_hit_score(test_data)
-```markdown
+```
 
 ## Dataset 
 
