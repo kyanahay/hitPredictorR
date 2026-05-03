@@ -42,6 +42,7 @@ test_data <- data.frame(
 )
 
 predict_hit_score(test_data)
+```markdown
 
 ## Dataset 
 
